@@ -1,4 +1,3 @@
-import styles from '../styles/About.module.css'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { useState } from 'react'

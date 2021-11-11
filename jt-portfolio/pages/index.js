@@ -9,7 +9,7 @@ export default function Home() {
         <title>Joseph Talon</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex flex-wrap items-center">
+      <div className="flex flex-wrap items-center pb-12">
         <div className="grid grid-flow-col m-auto items-center transform translate-y-1/2 px-2">
           <motion.div initial={{opacity: 0}} animate={{opacity: 1, transition: {delay: 2}}} className="mr-4 ml-2">
             <motion.div animate={{y: ["0%", "400%", "0%"]}} transition={{delay: 2.7, duration: 4}} >
