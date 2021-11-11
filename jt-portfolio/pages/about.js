@@ -71,10 +71,10 @@ export default function About() {
             </div>
             
             <div className="m-auto py-5 w-3/4">
-                <p className="text-xl py-2 md:text-2xl text-left border-b-2 border-orange"><strong>Skills</strong> (pop the bubbles)</p>
-                <div className="flex flex-wrap w-full">
+                <p className="text-xl py-2 md:text-2xl text-left border-b-2 border-orange md:text-center"><strong>Skills</strong> (pop the bubbles)</p>
+                <div className="flex flex-wrap w-full md:w-1/2 md:m-auto">
                     <div className="relative w-1/2 mt-5">
-                        <motion.div initial="hidden" animate={frontPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="text-lg">
+                        <motion.div initial="hidden" animate={frontPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="text-lg md:text-xl">
                             <p><strong>Frontend:</strong></p>
                             <ul>
                                 <li><Image src="/skillIcons/reactIcon.png" alt="icon" width="20" height="20" /> ReactJS</li>
@@ -92,12 +92,12 @@ export default function About() {
                         <motion.div initial="categoryF" animate={frontPressed ? 'hidden': 'categoryF'} variants={bubbleVariants}
                             className="absolute top-0 w-24 h-24 md:w-40 md:h-40 bg-gradient-to-br from-orange rounded-full text-center"
                         >
-                            <button onClick={() => frontendPressed()} className="mt-8">Frontend</button>
+                            <button onClick={() => frontendPressed()} className="mt-8 md:text-xl">Frontend</button>
                         </motion.div>
                     </div>
 
                     <div className="relative w-1/2 mt-5">
-                        <motion.div initial="hidden" animate={backPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute right-1/4 text-lg">
+                        <motion.div initial="hidden" animate={backPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute right-1/4 text-lg md:text-xl">
                             <p><strong>Backend:</strong></p>
                             <ul>
                                 <li><Image src="/skillIcons/nodeIcon.svg" alt="icon" width="20" height="20" /> NodeJS</li>
@@ -113,12 +113,12 @@ export default function About() {
                         <motion.div initial="categoryB" animate={backPressed ? 'hidden': 'categoryB'} variants={bubbleVariants}
                             className="absolute top-0 right-0 w-24 h-24 md:w-40 md:h-40 bg-gradient-to-br from-orange rounded-full text-center"
                         >
-                            <button onClick={() => backendPressed()} className="mt-8">Backend</button>
+                            <button onClick={() => backendPressed()} className="mt-8 md:text-xl">Backend</button>
                         </motion.div>
                     </div>
 
                     <div className="relative w-1/2 mt-5">
-                        <motion.div initial="hidden" animate={hostPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute left-0 text-lg">
+                        <motion.div initial="hidden" animate={hostPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute left-0 text-lg md:text-xl">
                             <p><strong>Hosting/Cloud Services:</strong></p>
                             <ul>
                                 <li><Image src="/skillIcons/firebaseIcon.png" alt="icon" width="25" height="20" />Firebase</li>
@@ -135,12 +135,12 @@ export default function About() {
                         <motion.div initial="categoryH" animate={hostPressed ? 'hidden': 'categoryH'} variants={bubbleVariants}
                             className="absolute top-0 left-0 w-24 h-24 md:w-40 md:h-40 bg-gradient-to-br from-orange rounded-full text-center"
                         >
-                            <button onClick={() => hostingPressed()} className="mt-8 text-sm">Hosting/Cloud Services</button>
+                            <button onClick={() => hostingPressed()} className="mt-8 text-sm md:text-xl">Hosting/Cloud Services</button>
                         </motion.div>
                     </div>
 
                     <div className="relative w-1/2 mt-5">
-                        <motion.div initial="hidden" animate={otherPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute text-lg">
+                        <motion.div initial="hidden" animate={otherPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute text-lg md:text-xl">
                             <p><strong>Other Languages:</strong></p>
                             <ul>
                                 <li><Image src="/skillIcons/CIcon.png" alt="icon" width="20" height="20" /> C</li>
@@ -156,14 +156,13 @@ export default function About() {
                         <motion.div initial="categoryB" animate={otherPressed ? 'hidden': 'categoryO'} variants={bubbleVariants}
                             className="absolute top-0 right-0 w-24 h-24 md:w-40 md:h-40 bg-gradient-to-br from-orange rounded-full text-center"
                         >
-                            <button onClick={() => otherLangPressed()} className="mt-5">Other Languages</button>
+                            <button onClick={() => otherLangPressed()} className="mt-5 md:mt-12 md:text-xl">Other Languages</button>
                         </motion.div>
                     </div>
                 </div>
-                
-                
+                <div className="p-48">
+                </div>
             </div>
-            
         </div>
     )
 }
