@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { motion } from 'framer-motion'
+import NavArrows from '../components/NavArrows'
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
         </div>
       </div>
       
+      <NavArrows right="/about"/>
     </div>
   )
 }

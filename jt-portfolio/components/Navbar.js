@@ -49,8 +49,8 @@ export default function Navbar() {
                             <a className={`${router.pathname == "/contact" ? 'md:border-b-2 border-orange' : ''} md:inline-flex md:w-auto w-full px-3 md:mx-3 md:px-0 py-2 items-center justify-center hover:text-orange hover:text-3xl`}>Contact</a>
                         </Link>
                         <div className="hidden md:inline-flex">
-                            <a href="https://github.com/jostal"><img className="w-10 flex mx-3" src="/git.png"></img></a>
-                            <a href="https://linkedin.com/in/jostal"><img className="w-10 flex mx-3" src="/linkedin.png"></img></a>
+                            <a href="https://github.com/jostal"><img className="w-10 flex mx-3 hover:w-12" src="/git.png"></img></a>
+                            <a href="https://linkedin.com/in/jostal"><img className="w-10 flex mx-3 hover:w-12" src="/linkedin.png"></img></a>
                         </div>
                     </div>
                 </div>
