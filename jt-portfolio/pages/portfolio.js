@@ -3,6 +3,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
 import CategoryHeader from "../components/CategoryHeader"
+import ChoreApp from "../components/projects/ChoreApp"
+import Technic from "../components/projects/Technic"
+import Alligator from "../components/projects/Alligator"
+import OEC from "../components/projects/OEC"
 
 export default function Portfolio() {
     const [webdevArr, setWebdevArr] = useState(["CookBook", "Chore App"]);
@@ -40,25 +44,41 @@ export default function Portfolio() {
                     </ul>
                 </div>
             </div>
-            <div id="sxn-webdev" className="h-screen transform translate-y-1/4 md:hidden">
-                <CategoryHeader name="Web Development" icon={<Image src="/webdev_icon.svg" height="75" width="90" />} projects={webdevArr}/>
+            <div className="h-auto">
+                <div id="sxn-webdev" className="transform translate-y-1/4 md:hidden my-5">
+                    <CategoryHeader name="Web Development" icon={<Image src="/webdev_icon.svg" height="75" width="90" />} projects={webdevArr}/>
+                </div>
+                <div id="sxn-webdev" className="hidden transform translate-y-1/4 md:block">
+                    <CategoryHeader name="Web Development" icon={<Image src="/webdev_icon.svg" height="100" width="125" />} projects={webdevArr}/>
+                </div>
+                <div>
+                    <ChoreApp />
+                </div>
             </div>
-            <div id="sxn-engdesign" className="hidden h-screen transform translate-y-1/4 md:block">
-                <CategoryHeader name="Web Development" icon={<Image src="/webdev_icon.svg" height="100" width="125" />} projects={webdevArr}/>
+            
+            <div className="h-auto">
+                <div id="sxn-engdesign" className="md:hidden">
+                    <CategoryHeader name="Engineering Design" icon={<Image src="/engdesign.svg" height="65" width="80" />} projects={engdesignArr}/>
+                </div>
+                <div id="sxn-engdesign" className="hidden md:block">
+                    <CategoryHeader name="Engineering Design" icon={<Image src="/engdesign.svg" height="90" width="100" />} projects={engdesignArr}/>
+                </div>
+                <div>
+                    <Alligator />
+                    <Technic />
+                </div>
             </div>
 
-            <div id="sxn-engdesign" className="h-screen  md:hidden">
-                <CategoryHeader name="Engineering Design" icon={<Image src="/engdesign.svg" height="65" width="80" />} projects={engdesignArr}/>
-            </div>
-            <div id="sxn-engdesign" className="hidden h-screen md:block">
-                <CategoryHeader name="Engineering Design" icon={<Image src="/engdesign.svg" height="90" width="100" />} projects={compArr}/>
-            </div>
-
-            <div id="sxn-comps" className="h-screen md:hidden">
-                <CategoryHeader name="Competitions" icon={<Image src="/comp.svg" height="75" width="90" />} projects={webdevArr}/>
-            </div>
-            <div id="sxn-engdesign" className="hidden h-screen md:block">
-                <CategoryHeader name="Competitions" icon={<Image src="/comp.svg" height="100" width="125" />} projects={webdevArr}/>
+            <div className="h-auto">
+                <div id="sxn-comps" className="md:hidden">
+                    <CategoryHeader name="Competitions" icon={<Image src="/comp.svg" height="75" width="90" />} projects={compArr}/>
+                </div>
+                <div id="sxn-engdesign" className="hidden md:block">
+                    <CategoryHeader name="Competitions" icon={<Image src="/comp.svg" height="100" width="125" />} projects={compArr}/>
+                </div>
+                <div>
+                    <OEC />
+                </div>
             </div>
         </div>
     )

@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { useInView } from 'react-intersection-observer'
 
 const variants = {
-    visible: { opacity: 1, scale: 1, y: 800},
+    visible: { opacity: 1, scale: 1, y: 200},
     hidden: { opacity: 1, scale: 1, y: 0, transition: {duration: 1}}
 }
 
@@ -30,7 +30,7 @@ export default function CategoryHeader(props) {
                 {props.projects.map(proj => {
                     var projURL = "#" + proj;
                     return (
-                        <a href={projURL}><p className="px-3">{proj}</p></a>
+                        <a href={projURL}><p className="px-3 py-3 hover:text-black">{proj}</p></a>
                     )
                 })}
             </div>

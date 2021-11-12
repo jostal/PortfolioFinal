@@ -6,6 +6,10 @@ module.exports = {
     colors: {
       orange: {
         DEFAULT: 'rgb(255, 94, 0)',
+        banner: 'rgb(220, 80, 20)',
+      },
+      black: {
+        DEFAULT: 'rgb(0, 0, 0)',
       }
     },
     extend: {},
