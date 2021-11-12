@@ -96,7 +96,7 @@ export default function About() {
                     </div>
 
                     <div className="relative w-1/2 mt-5">
-                        <motion.div initial="hidden" animate={backPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute right-1/4 text-lg md:text-xl">
+                        <motion.div initial="hidden" animate={backPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute left-2/4 text-lg md:text-xl">
                             <p><strong>Backend:</strong></p>
                             <ul>
                                 <li><Image src="/skillIcons/nodeIcon.svg" alt="icon" width="20" height="20" /> NodeJS</li>
@@ -139,7 +139,7 @@ export default function About() {
                     </div>
 
                     <div className="relative w-1/2 mt-5">
-                        <motion.div initial="hidden" animate={otherPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute text-lg md:text-xl">
+                        <motion.div initial="hidden" animate={otherPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute text-lg left-2/4 md:text-xl">
                             <p><strong>Other Languages:</strong></p>
                             <ul>
                                 <li><Image src="/skillIcons/CIcon.png" alt="icon" width="20" height="20" /> C</li>
