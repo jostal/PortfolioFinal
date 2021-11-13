@@ -121,7 +121,7 @@ export default function About() {
                             <p><strong>Hosting/Cloud Services:</strong></p>
                             <ul>
                                 <li><Image src="/skillIcons/firebaseIcon.png" alt="icon" width="25" height="20" />Firebase</li>
-                                <li><Image src="/skillIcons/gCloudIcon.png" alt="icon" width="20" height="20" /> Google Cloud</li>
+                                <li><Image src="/skillIcons/gcloudIcon.png" alt="icon" width="20" height="20" /> Google Cloud</li>
                                 <li><Image src="/skillIcons/awsIcon.png" alt="icon" width="20" height="20" /> AWS</li>
                                 <li><Image src="/skillIcons/herokuIcon.png" alt="icon" width="20" height="20" /> Heroku</li>
                                 <li><Image src="/skillIcons/vercel.png" alt="icon" width="20" height="20" /> Vercel</li>
