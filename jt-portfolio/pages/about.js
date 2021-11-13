@@ -46,15 +46,15 @@ export default function About() {
     }
 
     return (
-        <div className="flex flex-col flex-wrap w-2/3">
-            <div className="w-full m-auto md:w-full transform md:-translate-x-1/4">
-                <div className="w-2/4 m-auto transform md:w-1/4 translate-y-1/2 md:translate-y-1/3 md:-translate-x-1/4">
+        <div className="flex flex-col flex-wrap w-2/3 m-auto">
+            <div className="flex flex-col w-full m-auto transform md:-translate-x-1/4">
+                <div className="w-2/4 m-auto transform md:w-1/4 translate-y-1/2 md:-translate-x-1/4">
                     <div className="rounded-full border-2 w-full overflow-hidden">
                         <Image src="/me2.jpg" layout="responsive" width="2219" height="2219"></Image>
                     </div>
                 </div>
-                <div className="flex flex-col w-full m-auto mt-16 md:w-2/4 md:mt-auto transform md:-translate-y-2/3 md:translate-x-3/4">
-                    <p className="text-2xl text-center md:text-4xl md:text-left px-3 py-2">I'm Joseph Talon</p>
+                <div className="flex flex-col w-full m-auto mt-16 md:w-2/4 md:mt-auto transform md:-translate-y-1/2 md:translate-x-3/4">
+                    <p className="text-2xl text-center md:text-4xl md:text-left py-2">I'm Joseph Talon</p>
                     <p className="md:text-xl">
                         &emsp;I am an Engineering Systems & Computing Student at the University of Guelph. <br className="mb-3"/>
                         &emsp;I plan on specializing in Mechatronics, but I have a great interest in Web and Software Development. <br className="mb-3"/>
@@ -69,7 +69,7 @@ export default function About() {
                 </div>
             </div>
             
-            <div className="m-auto py-5 w-3/4">
+            <div className="flex flex-col m-auto py-5 w-full">
                 <p className="text-xl py-2 md:text-2xl text-left border-b-2 border-orange md:text-center"><strong>Skills</strong> (pop the bubbles)</p>
                 <div className="flex flex-wrap w-full md:w-1/2 md:m-auto">
                     <div className="relative w-1/2 mt-5">
@@ -159,7 +159,7 @@ export default function About() {
                         </motion.div>
                     </div>
                 </div>
-                <div className="p-48">
+                <div className="py-48">
                 </div>
             </div>
         </div>
