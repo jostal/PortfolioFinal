@@ -58,13 +58,13 @@ export default function About() {
                     <p className="md:text-xl">
                         &emsp;I am an Engineering Systems & Computing Student at the University of Guelph. <br className="mb-3"/>
                         &emsp;I plan on specializing in Mechatronics, but I have a great interest in Web and Software Development. <br className="mb-3"/>
-                        &emsp;I have always had an interest in programming, but through my courswork I have developed an interest specifically in Software Development.
+                        &emsp;I have always had an interest in programming, but through my coursework I have developed an interest specifically in Software Development.
                             - Particularly Object-Oriented. <br className="mb-3"/>
                         &emsp;Through working on interesting side-projects, I have developed a great interest in Web Development. I love to make cool and useful web apps with my knowledge
                             and am always looking forward to creating something new and exciting. Working on these projects has lead me to developing great skills in various technologies.
                             These projects can be viewed on the portfolio page. <br className="mb-3"/>
-                        &emsp;I am very much looking forward to using my skills to create many more creative and challenging projects! If you have a project in mind, please <a href="/contact">contact</a>
-                            me nad I would love to discuss it with you.
+                        &emsp;I am very much looking forward to using my skills to create many more creative and challenging projects! If you have a project in mind, please <a href="/contact">contact </a>
+                            me and I would love to discuss it with you.
                     </p>
                 </div>
             </div>
@@ -96,7 +96,7 @@ export default function About() {
                     </div>
 
                     <div className="relative w-1/2 mt-5">
-                        <motion.div initial="hidden" animate={backPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute left-2/4 text-lg md:text-xl">
+                        <motion.div initial="hidden" animate={backPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute left-2/4 text-lg md:text-xl mt-5">
                             <p><strong>Backend:</strong></p>
                             <ul>
                                 <li><Image src="/skillIcons/nodeIcon.svg" alt="icon" width="20" height="20" /> NodeJS</li>
@@ -117,7 +117,7 @@ export default function About() {
                     </div>
 
                     <div className="relative w-1/2 mt-5">
-                        <motion.div initial="hidden" animate={hostPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute left-0 text-lg md:text-xl">
+                        <motion.div initial="hidden" animate={hostPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute left-0 text-lg md:text-xl mt-5">
                             <p><strong>Hosting/Cloud Services:</strong></p>
                             <ul>
                                 <li><Image src="/skillIcons/firebaseIcon.png" alt="icon" width="25" height="20" />Firebase</li>
