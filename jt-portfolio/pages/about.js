@@ -46,8 +46,8 @@ export default function About() {
     }
 
     return (
-        <div className="flex flex-col flex-wrap w-full">
-            <div className="w-2/3 m-auto md:w-full transform md:-translate-x-1/4">
+        <div className="flex flex-col flex-wrap w-2/3">
+            <div className="w-full m-auto md:w-full transform md:-translate-x-1/4">
                 <div className="w-2/4 m-auto transform md:w-1/4 translate-y-1/2 md:translate-y-1/3 md:-translate-x-1/4">
                     <div className="rounded-full border-2 w-full overflow-hidden">
                         <Image src="/me2.jpg" layout="responsive" width="2219" height="2219"></Image>
