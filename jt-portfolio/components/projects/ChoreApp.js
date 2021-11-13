@@ -21,7 +21,7 @@ export default function ChoreApp() {
                 </ol>
                 <div className="flex flex-wrap py-4">
                     <div className="flex flex-col py-2 md:px-5">
-                        <Image src="/ChoreCalendar.png" width="525" height="800"/>
+                        <Image src="/choreCalendar.png" width="525" height="800"/>
                         <p className="text-sm"><em>original .csv file</em></p>
                     </div>
                     <div className="flex flex-col py-2 md:px-5">
