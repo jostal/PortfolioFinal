@@ -117,7 +117,7 @@ export default function About() {
                     </div>
 
                     <div className="relative w-1/2 mt-5">
-                        <motion.div initial="hidden" animate={hostPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute left-0 text-lg md:text-xl mt-5">
+                        <motion.div initial="hidden" animate={hostPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute left-0 text-lg md:text-xl">
                             <p><strong>Hosting/Cloud Services:</strong></p>
                             <ul>
                                 <li><Image src="/skillIcons/firebaseIcon.png" alt="icon" width="25" height="20" />Firebase</li>
@@ -139,7 +139,7 @@ export default function About() {
                     </div>
 
                     <div className="relative w-1/2 mt-5">
-                        <motion.div initial="hidden" animate={otherPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute text-lg ml-2 md:text-xl my-5">
+                        <motion.div initial="hidden" animate={otherPressed ? 'list' : 'hidden'} variants={bubbleVariants} className="absolute text-lg ml-2 md:text-xl">
                             <p><strong>Other Languages:</strong></p>
                             <ul>
                                 <li><Image src="/skillIcons/CIcon.png" alt="icon" width="20" height="20" /> C</li>
