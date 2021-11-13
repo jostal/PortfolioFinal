@@ -7,6 +7,7 @@ import ChoreApp from "../components/projects/ChoreApp"
 import Technic from "../components/projects/Technic"
 import Alligator from "../components/projects/Alligator"
 import OEC from "../components/projects/OEC"
+import CookBook from "../components/projects/CookBook"
 
 export default function Portfolio() {
     const [webdevArr, setWebdevArr] = useState(["CookBook", "Chore App"]);
@@ -52,6 +53,7 @@ export default function Portfolio() {
                     <CategoryHeader name="Web Development" icon={<Image src="/webdev_icon.svg" height="100" width="125" />} projects={webdevArr}/>
                 </div>
                 <div>
+                    <CookBook />
                     <ChoreApp />
                 </div>
             </div>

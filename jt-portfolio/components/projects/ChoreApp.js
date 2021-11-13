@@ -43,7 +43,7 @@ export default function ChoreApp() {
 
     return (
         <div id="Chore App">
-            <Project projName="Chore App" tech="ReactJS, ExpressJS, HTML/CSS" info={getInfo()} />
+            <Project projName="Chore App" tech="ReactJS, ExpressJS, HTML/CSS, Heroku" info={getInfo()} />
         </div>
     )
 }
