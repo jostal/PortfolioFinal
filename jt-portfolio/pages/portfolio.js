@@ -34,14 +34,14 @@ export default function Portfolio() {
                 <div className="hidden md:block transform md:translate-y-1/3">
                     <p className="text-3xl text-center"><strong>Which projects would you like to view?</strong></p>
                     <ul className="flex flex-row gap-20 ml-2 justify-center py-2">
-                        <Link href="#sxn-webdev"><motion.img whileHover={{scale: 1.2}} src="/webdev_icon.svg" height="100" width="125"></motion.img></Link>
-                        <Link href="#sxn-engdesign"><motion.img whileHover={{scale: 1.2}} src="/engdesign.svg" height="90" width="100"></motion.img></Link>
-                        <Link href="#sxn-comps"><motion.img whileHover={{scale: 1.2}} src="/comp.svg" height="85" width="100" className="mb-3"></motion.img></Link>
+                        <a href="#sxn-webdev"><motion.img whileHover={{scale: 1.2}} src="/webdev_icon.svg" height="100" width="125"></motion.img></a>
+                        <a href="#sxn-engdesign"><motion.img whileHover={{scale: 1.2}} src="/engdesign.svg" height="90" width="100"></motion.img></a>
+                        <a href="#sxn-comps"><motion.img whileHover={{scale: 1.2}} src="/comp.svg" height="85" width="100" className="mb-3"></motion.img></a>
                     </ul>
                     <ul className="flex flex-row gap-6 justify-center text-xl py-2"> 
-                        <Link href="#sxn-webdev"><motion.li whileHover={{color: "rgb(255, 94, 0)", textShadow: "0 0 5px rgb(255, 94, 0)", scale: 1.1}} className="">Web Development</motion.li></Link>
-                        <Link href="#sxn-engdesign"><motion.li whileHover={{color: "rgb(255, 94, 0)", textShadow: "0 0 5px rgb(255, 94, 0)", scale: 1.1}} className="">Engineering Design</motion.li></Link>
-                        <Link href="#sxn-comps"><motion.li whileHover={{color: "rgb(255, 94, 0)", textShadow: "0 0 5px rgb(255, 94, 0)", scale: 1.1}} className="">Competitions</motion.li></Link>
+                        <a href="#sxn-webdev"><motion.li whileHover={{color: "rgb(255, 94, 0)", textShadow: "0 0 5px rgb(255, 94, 0)", scale: 1.1}} className="">Web Development</motion.li></a>
+                        <a href="#sxn-engdesign"><motion.li whileHover={{color: "rgb(255, 94, 0)", textShadow: "0 0 5px rgb(255, 94, 0)", scale: 1.1}} className="">Engineering Design</motion.li></a>
+                        <a href="#sxn-comps"><motion.li whileHover={{color: "rgb(255, 94, 0)", textShadow: "0 0 5px rgb(255, 94, 0)", scale: 1.1}} className="">Competitions</motion.li></a>
                     </ul>
                 </div>
             </div>
