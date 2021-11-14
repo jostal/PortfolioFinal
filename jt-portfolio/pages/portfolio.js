@@ -45,11 +45,11 @@ export default function Portfolio() {
                     </ul>
                 </div>
             </div>
-            <div className="h-auto">
-                <div id="sxn-webdev" className="transform translate-y-1/4 md:hidden my-5">
+            <div id="sxn-webdev" className="h-auto">
+                <div className="transform translate-y-1/4 md:hidden my-5">
                     <CategoryHeader name="Web Development" icon={<Image src="/webdev_icon.svg" height="75" width="90" />} projects={webdevArr}/>
                 </div>
-                <div id="sxn-webdev" className="hidden transform translate-y-1/4 md:block">
+                <div className="hidden transform translate-y-1/4 md:block">
                     <CategoryHeader name="Web Development" icon={<Image src="/webdev_icon.svg" height="100" width="125" />} projects={webdevArr}/>
                 </div>
                 <div>
@@ -58,11 +58,11 @@ export default function Portfolio() {
                 </div>
             </div>
             
-            <div className="h-auto">
-                <div id="sxn-engdesign" className="md:hidden">
+            <div id="sxn-engdesign" className="h-auto">
+                <div className="md:hidden">
                     <CategoryHeader name="Engineering Design" icon={<Image src="/engdesign.svg" height="65" width="80" />} projects={engdesignArr}/>
                 </div>
-                <div id="sxn-engdesign" className="hidden md:block">
+                <div className="hidden md:block">
                     <CategoryHeader name="Engineering Design" icon={<Image src="/engdesign.svg" height="90" width="100" />} projects={engdesignArr}/>
                 </div>
                 <div>
@@ -71,11 +71,11 @@ export default function Portfolio() {
                 </div>
             </div>
 
-            <div className="h-auto">
-                <div id="sxn-comps" className="md:hidden">
+            <div id="sxn-comps" className="h-auto">
+                <div className="md:hidden">
                     <CategoryHeader name="Competitions" icon={<Image src="/comp.svg" height="75" width="90" />} projects={compArr}/>
                 </div>
-                <div id="sxn-engdesign" className="hidden md:block">
+                <div className="hidden md:block">
                     <CategoryHeader name="Competitions" icon={<Image src="/comp.svg" height="100" width="125" />} projects={compArr}/>
                 </div>
                 <div>
