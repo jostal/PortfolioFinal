@@ -25,7 +25,7 @@ export default function ChoreApp() {
                         <p className="text-sm"><em>original .csv file</em></p>
                     </div>
                     <div className="flex flex-col py-2 md:px-5">
-                        <Image src="/choreJSON.png" width="525" height="800"/>
+                        <Image src="/ChoreJSON.png" width="525" height="800"/>
                         <p className="text-sm"><em>csv converted into JSON formated and served as REST API</em></p>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ export default function ChoreApp() {
 
     return (
         <div id="Chore App">
-            <Project projName="Chore App" tech="ReactJS, ExpressJS, HTML/CSS" info={getInfo()} />
+            <Project projName="Chore App" tech="ReactJS, ExpressJS, HTML/CSS, Heroku" info={getInfo()} />
         </div>
     )
 }

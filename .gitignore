@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 .lock
 .gitignore
+=======
+/node_modules
+>>>>>>> 7021caf37d4149b2477d9b8429638ef44656afd8
