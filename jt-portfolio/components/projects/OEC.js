@@ -5,8 +5,8 @@ export default function OEC() {
 
     function getInfo() {
         return (
-            <div className="md:flex w-full flex-wrap">
-                <div className="flex flex-col md:w-2/3">
+            <div className="lg:flex w-full flex-wrap">
+                <div className="flex flex-col lg:w-2/3">
                     <p className="py-2">
                     &emsp;In OEC 2021, I collaborated with a partner to develop solutions for two re-engineering problem cases.
                     In the first case, we were tasked with repurposing a public space such as an arena or school into a medical center
@@ -29,11 +29,11 @@ export default function OEC() {
                     </p>
                 </div>
                 <div className="flex flex-col w-full">
-                    <div className="flex flex-col md:w-1/2">
+                    <div className="flex flex-col lg:w-1/2">
                         <Image src="/costs.png" width="642" height="311" />
                         <p className="text-sm"><em>Solution costs</em></p>
                     </div>
-                    <div className="flex flex-col py-2 md:w-1/2">
+                    <div className="flex flex-col py-2 lg:w-1/2">
                         <Image src="/warena.png" width="1174" height="639" />
                         <p className="text-sm"><em>Plan to repurpose arena</em></p>
                     </div>
@@ -42,7 +42,7 @@ export default function OEC() {
                 <div>
                     <p className="py-2"><strong>Case 2:</strong></p>
                     <p>
-                        &emsp;Our solution to the second problem was to develop a portable alert device, which can be left in the homes are taken with
+                        &emsp;Our solution to the second problem was to develop a portable alert device, which can be left in the homes or taken with
                         residents so they can always be aware of incoming wildfires. The device would have an RF switch, trigerred by a specific radio frequency depending
                         on the region the device is in and it's distance from the fire. Having the alert go off based on region would reduce panic and traffic congestion making a safer escape route
                         for all residents. The switch would sound an alarm, alerting residents on the incoming fire as well as start an FM radio broadcast notifying

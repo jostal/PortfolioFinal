@@ -5,13 +5,13 @@ export default function Technic() {
     function getInfo() {
         return (
             <div className="inline-flex flex-wrap">
-                <div className="md:hidden">
+                <div className="lg:hidden">
                     <ReactPlayer url="https://www.youtube.com/watch?v=rAA8V7fqaJI" controls="true" width="100%" height="100%"/>
                 </div>
-                <div className="hidden md:block">
+                <div className="hidden lg:block">
                     <ReactPlayer url="https://www.youtube.com/watch?v=rAA8V7fqaJI" controls="true"/>
                 </div>
-                <div className="md:w-1/3 md:px-4">
+                <div className="lg:w-1/3 lg:px-4">
                     <p className="py-2">&nbsp;This was a group project made for my ENGG*2100 course which required us to model, assemble, and animate a 240 piece Lego Technic Model.
                         The model had multiple moving parts, including tracks and gears which were all assembled from individually modelled parts.
                     </p>

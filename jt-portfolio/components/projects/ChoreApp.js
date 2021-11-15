@@ -20,11 +20,11 @@ export default function ChoreApp() {
                     <li>2) Serve JSON data as a REST API for the frontend</li>
                 </ol>
                 <div className="flex flex-wrap py-4">
-                    <div className="flex flex-col py-2 md:px-5">
+                    <div className="flex flex-col py-2 lg:px-5">
                         <Image src="/choreCalendar.png" width="525" height="800"/>
                         <p className="text-sm"><em>original .csv file</em></p>
                     </div>
-                    <div className="flex flex-col py-2 md:px-5">
+                    <div className="flex flex-col py-2 lg:px-5">
                         <Image src="/ChoreJSON.png" width="525" height="800"/>
                         <p className="text-sm"><em>csv converted into JSON formated and served as REST API</em></p>
                     </div>

@@ -21,7 +21,7 @@ export default function CookBook() {
                     in a user-friendly manner. The recipe may also be edited from this page.
                 </p><br />
                 <p>&emsp;Developing this webapp greatly improved my NextJS, Tailwind, and Django skills. The webapp can be viewed <a href="https://cook-book2-0.vercel.app/"><em>here</em></a></p>
-                <div className="flex flex-col md:flex-row">
+                <div className="flex flex-col lg:flex-row">
                     <div className="p-3">
                         <Image src="/categories.png" width="802" height="803"/>
                         <p className="text-sm"><em>Categories Page</em></p>
